@@ -19,6 +19,7 @@ typedef struct binary_tree_s
 	struct binary_tree_s *left;
 	struct binary_tree_s *right;
 } binary_tree_t;
+int binary_trees_height(const binary_tree_t *tree);
 void binary_tree_print(const binary_tree_t *);
 void binary_tree_print(const binary_tree_t *tree);
 typedef struct binary_tree_s binary_tree_t;
